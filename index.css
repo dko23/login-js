@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kreon', serif;
+}
+.container{
+    border: 2px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: 600px;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: white;
+  
+}
+.head{
+    align-items: center;
+  
+}
+
+.main-title{
+   text-align: center;
+}
+.animate{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+
+.logos{
+    height: 20px;
+    width: 20px;
+  
+   
+}
+
+.fill-details{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.right{
+    border-color: rgb(21, 224, 21);
+}
+.wrong{
+    border-color: red;
+}
+
+.btn{
+    background-color: rgb(49, 221, 19);
+    color: rgb(85, 85, 85);
+}
